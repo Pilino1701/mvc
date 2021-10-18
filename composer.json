@@ -1,0 +1,16 @@
+{
+    "name": "pietro/cursomvc",
+    "description": "Curso de Mvc",
+    "license": "proprietary",
+    
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": ["config/config.php"]
+    },
+
+    "minimum-stability": "stable",
+    "require": {"php":">=5.32"}
+}//oggetto principale
